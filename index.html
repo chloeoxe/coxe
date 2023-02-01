@@ -21,29 +21,124 @@
     />
   </head>
   <body class="main-content">
-    <header class="section sec1 header active"></header>
+    <header class="section sec1 header active" id="home">
+      <div class="header-content">
+        <div class="left-header">
+          <div class="h-shape"></div>
+          <div class="image">
+            <img src="img/chloe.png" alt="chloe" />
+          </div>
+        </div>
+        <div class="right-header">
+          <h1 class="name">Hello, I'm <span>Chloe Ong.</span></h1>
+          <br />
+          <h3>
+            Data Analyst | Data Scientist | Software Developer | Tech Enthusiast
+          </h3>
+          <p>
+            Getting useful insights and harnessing the power of data are what I
+            love to do. Developing cool websites also makes up my repertoire.
+            Always happy to learn.
+          </p>
+          <div class="btn-con">
+            <a href="" class="main-btn">
+              <span class="btn-text">Download CV/Resume</span>
+              <span class="btn-icon"><i class="fa-solid fa-download"></i></span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
     <main>
-      <section class="section sec2 about"></section>
-      <section class="section sec3 projects"></section>
-      <section class="section sec4 activities"></section>
-      <section class="section sec5 contacts"></section>
+      <section class="section sec2 about" id="about">
+        <div class="main-title">
+          <h2>About <span>me</span><span class="bg-text">my stats</span></h2>
+        </div>
+        <div class="about-container">
+          <div class="left-about">
+            <h4>Information About Me</h4>
+            <p>
+              Hello, I'm Chloe, currently a year 2 Business Analytics
+              undergraduate at the National University of Singapore. I am
+              interested and have delved into the areas of Data Analytics, Data
+              Engineering, Software Engineering, and Machine Learning.
+              Nonetheless, I am always open to learning more about these areas
+              and other new things as well. In my free time, I enjoy learning
+              more about the Information Technology and Data Science world, as
+              well as applying what I learn on projects, be it personal projects
+              or class projects. I work well in teams and am a good communicator
+              and presenter, which are skills I believe will help me
+              tremendously in the workplace. I am currently looking for
+              internships (part-time/full-time) to further develop my experience
+              in the Information Technology and Data Science industries.
+            </p>
+            <div class="btn-con">
+              <a href="" class="main-btn">
+                <span class="btn-text">Download CV/Resume</span>
+                <span class="btn-icon"
+                  ><i class="fa-solid fa-download"></i
+                ></span>
+              </a>
+            </div>
+          </div>
+          <div class="right-about">
+            <div class="about-item">
+              <div class="abt-text">
+                <p class="large-text">560+</p>
+                <p class="small-text">
+                  Projects <br />
+                  Completed
+                </p>
+              </div>
+            </div>
+            <div class="about-item">
+              <div class="abt-text">
+                <p class="large-text">560+</p>
+                <p class="small-text">
+                  Projects <br />
+                  Completed
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="about-stats">
+          <h4 class="stat-title">My Skills</h4>
+          <div class="progress-bars">
+            <div class="progress-bar">
+              <p class="prog-title">html5</p>
+              <div class="progress-con">
+                <p class="prog-text">90%</p>
+                <div class="progress">
+                  <span class="html"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section sec3 projects" id="projects"></section>
+      <section class="section sec4 activities" id="activities"></section>
+      <section class="section sec5 contacts" id="contacts"></section>
     </main>
     <div class="controls">
-      <div class="control control-1 active-btn">
+      <div class="control control-1 active-btn" data-id="home">
         <i class="fa-solid fa-house"></i>
       </div>
-      <div class="control control-2">
+      <div class="control control-2" data-id="about">
         <i class="fa-solid fa-user"></i>
       </div>
-      <div class="control control-3">
+      <div class="control control-3" data-id="projects">
         <i class="fa-solid fa-folder"></i>
       </div>
-      <div class="control control-4">
+      <div class="control control-4" data-id="activities">
         <i class="fa-solid fa-compass"></i>
       </div>
-      <div class="control control-5">
+      <div class="control control-5" data-id="contacts">
         <i class="fa-solid fa-envelope"></i>
       </div>
     </div>
+
+    <script src="app.js"></script>
   </body>
 </html>
